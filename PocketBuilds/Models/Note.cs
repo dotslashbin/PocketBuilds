@@ -8,6 +8,7 @@ namespace PocketBuilds.Models
     public class Note
     {
         public int ID { get; set; }
+        public int BuildOrderID { get; set; }
         public string Content { get; set; }
     }
 }
