@@ -15,5 +15,10 @@ namespace PocketBuilds.Models
 
         [Required]
         public string Content { get; set; }
+
+        [Display(Name = "Date Created")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime DateCreated { get; set; }
     }
 }

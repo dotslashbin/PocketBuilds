@@ -51,7 +51,10 @@ namespace PocketBuilds.Controllers
         {
             if (ModelState.IsValid)
             {
-                //buildorder.DateAdded = DateTime.Today;
+                DateTime dateToday = DateTime.Now;
+
+                buildorder.DateCreated = dateToday; 
+
                 db.BuildOrders.Add(buildorder);
                 db.SaveChanges();
                 return RedirectToAction("Index");

@@ -58,3 +58,5 @@ C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\o
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.Migrations.added_required_fields_on_models.resources
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.csprojResolveAssemblyReference.cache
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.Migrations.removed_date_related_fields_on_models.resources
+C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.Migrations.readded_date_with_annotations.resources
+C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.Migrations.renamed_date_entry_and_added_date_to_notes.resources
