@@ -170,6 +170,18 @@
     <Compile Include="Migrations\201401310514314_InitialCreate.Designer.cs">
       <DependentUpon>201401310514314_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201401310949391_added_date_related_fields_to_BuildOrder_and_Note.cs" />
+    <Compile Include="Migrations\201401310949391_added_date_related_fields_to_BuildOrder_and_Note.Designer.cs">
+      <DependentUpon>201401310949391_added_date_related_fields_to_BuildOrder_and_Note.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201401311031375_added_required_fields_on_models.cs" />
+    <Compile Include="Migrations\201401311031375_added_required_fields_on_models.Designer.cs">
+      <DependentUpon>201401311031375_added_required_fields_on_models.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201401311122099_removed_date_related_fields_on_models.cs" />
+    <Compile Include="Migrations\201401311122099_removed_date_related_fields_on_models.Designer.cs">
+      <DependentUpon>201401311122099_removed_date_related_fields_on_models.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BuildOrder.cs" />
@@ -243,6 +255,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201401310514314_InitialCreate.resx">
       <DependentUpon>201401310514314_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201401310949391_added_date_related_fields_to_BuildOrder_and_Note.resx">
+      <DependentUpon>201401310949391_added_date_related_fields_to_BuildOrder_and_Note.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201401311031375_added_required_fields_on_models.resx">
+      <DependentUpon>201401311031375_added_required_fields_on_models.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201401311122099_removed_date_related_fields_on_models.resx">
+      <DependentUpon>201401311122099_removed_date_related_fields_on_models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
