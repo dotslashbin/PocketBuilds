@@ -10,6 +10,8 @@ namespace PocketBuilds.Models
         public int ID { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime LastUpdate { get; set; }
 
         public virtual ICollection<Note> Notes { get; set; }
     }
