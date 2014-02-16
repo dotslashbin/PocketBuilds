@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using PocketBuilds.Models;
 using PocketBuilds.Data_Access_Layer;
+using System.Configuration;
 
 namespace PocketBuilds.Controllers
 {
@@ -15,9 +16,15 @@ namespace PocketBuilds.Controllers
     {
         private BuildOrderContext db = new BuildOrderContext();
 
+        public BuildOrderController()
+        {
+            ViewBag.AppTitle = ConfigurationManager.AppSettings["AppTitle"]; 
+        }
+
         // GET: /BuildOrder/
         public ActionResult Index()
         {
+            
             return View(db.BuildOrders.ToList());
         }
 

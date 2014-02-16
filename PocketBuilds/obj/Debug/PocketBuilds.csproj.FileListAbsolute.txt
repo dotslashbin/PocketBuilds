@@ -50,7 +50,6 @@ C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\b
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.csprojResolveAssemblyReference.cache
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.Migrations.InitialCreate.resources
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.Migrations.added_date_related_fields_to_BuildOrder_and_Note.resources
 C:\Users\admin\Documents\Visual Studio 2013\Projects\PocketBuilds\PocketBuilds\obj\Debug\PocketBuilds.Migrations.added_required_fields_on_models.resources
